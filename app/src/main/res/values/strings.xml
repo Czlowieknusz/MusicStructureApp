@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">MusicStructureApp</string>
-    <string name="band_name">Band name</string>
-    <string name="song_name">Song name</string>
-    <string name="lyrics">Here would be displayed lyrics of the chosen song.\nThey would be downloaded from internet.</string>
-    <string name="infoAboutSong">Here would be displayed text about history of the song and some history about it\'s authors. All downloaded from internet.</string>
-    <string name="info_about_now_playing_activity">This TextView would be changed to ImageView and would display album cover of currently playing song. This activity would be the first to be displayed when application starts.  On the bottom would be displayed song and band name using setText. Through like and dislike button user would be able to make songs appear more or less often in future added randomLayout.</string>
+    <string name="band_name">Ayreon</string>
+    <string name="song_name">Day Two: Isolation</string>
+    <string name="lyrics">Here would be displayed lyrics of the chosen song.\nThey would be downloaded from internet using API 9 DownloadManager class.</string>
+    <string name="infoAboutSong">Here would be displayed text about history of the song and some history about it\'s authors. All informations would be downloaded from internet using API 9 DownloadManager class.</string>
+    <string name="info_about_now_playing_activity">This activity would be the first to be displayed when application starts.  On the bottom would be displayed song and band name using setText. Through like and dislike button user would be able to make songs appear more or less often in future added randomLayout. The song would be played via MediaPlayer class. The app would use songs from a phone.</string>
     <string name="info_about_music_library">Possible view of this layout. ImageView would allow to play a song in the same line. Automatically names at the bottom would change. The songs would be displayed using ListView and ArrayAdapter.</string>
+    <string name="lyrics_label">Lyrics</string>
+    <string name="music_library_label">Music library</string>
+    <string name="info_label">About song</string>
 
 </resources>

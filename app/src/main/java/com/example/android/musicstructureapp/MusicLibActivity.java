@@ -33,7 +33,7 @@ public class MusicLibActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             case R.id.currentlyPlaying:
-                i = new Intent(this, PlayingActivity.class);
+                i = new Intent(this, MainActivity.class);
                 startActivity(i);
                 break;
         }
